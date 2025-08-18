@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "serve-ssl": "serve -s dist --ssl-cert C:/Users/Administrador/Desktop/ssl/certificate.crt --ssl-key C:/Users/Administrador/Desktop/ssl/private.key -l 9016",
+    "serve-test": "serve -s dist -l 9016",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
